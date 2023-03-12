@@ -1,0 +1,143 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Archivo', sans-serif;
+}
+
+.container{
+	max-width:375px;
+	margin:20px auto;
+    padding: 20px 0;
+}
+a:link,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  display: inline-block;
+}
+.row,
+.row::after,
+.row::before {
+  clear: both;
+  display: table;
+  width: 100%;
+}
+.col-12,
+.col-6,
+.col-4,
+.col-3,
+.col-9,
+.col-5,
+.col-7,
+.col-8{
+	float:left;
+	padding:0 15px;
+}
+
+.col-12{
+	width:100%;
+}
+.col-6{
+	width:50%;
+}
+.col-4 {
+  width: calc(100% / 3);
+}
+.col-5 {
+  width: calc((100% / 12) * 5);
+}
+.col-7 {
+  width: calc((100% / 12) * 7);
+}
+.col-8 {
+  width: calc((100% / 12) * 8);
+}
+.col-3 {
+  width: 25%;
+}
+.col-9{
+	width:75%;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.text-center{
+	text-align:center;
+}
+.cursor{
+    cursor: pointer;
+}
+ol,ul{
+	list-style:none;
+}
+/* .mb-100{
+	margin-bottom:100px;
+}
+.mb-60{
+	margin-bottom:60px;
+}
+.mb-55{
+	margin-bottom:55px;
+}
+.mb-75{
+	margin-bottom:75px;
+}
+.mb-26{
+	margin-bottom:26px;
+}
+
+.mb-13{
+	margin-bottom:13px;
+}
+.mb-28{
+	margin-bottom:28px;
+}
+.mt-15{
+	margin-top:15px;
+}
+.mt-40{
+	margin-top:40px;
+} */
+.mr-15{
+    margin-right: 15px;
+}
+.mb-35{
+	margin-bottom:35px;
+}
+.mb-14{
+	margin-bottom:14px;
+}
+.mb-20{
+	margin-bottom:20px;
+}
+.mr-24{
+	margin-right:24px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.w-9 {
+    width: 75%;
+    margin: 0 auto;
+}
+.w-76 {
+    width: calc((100% * 7.6) / 12);
+}
+.w-7 {
+    width: calc((100% * 7) / 12);
+}

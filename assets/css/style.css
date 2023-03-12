@@ -1,0 +1,112 @@
+.myTeam {
+    background-color: #002947;
+}
+
+.mainHeading {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.subHeading {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.time {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+    color: #FFFFFF;
+    background-color: #024B5C;
+    padding: 5px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.indiaImg {
+    padding-right: 10px;
+}
+
+.rank {
+    padding: 5px 20px;
+    float: right;
+}
+
+.rank1 {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.players-section {
+    background-color: #fff;
+    max-width: 355px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.playersheader {
+    /* max-width: 343px;
+    margin: 0 auto; */
+    padding: 10px;
+}
+
+.players-label {
+    background: #E4E4E4;
+    border-radius: 45px;
+    margin-bottom: 13px;
+    padding: 6px;
+}
+
+.playersName {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #002947;
+}
+
+.selected {
+    background: #E4E4E4;
+    border-radius: 6px;
+    padding: 13px 4px;
+}
+
+.NotSelected {
+    border-radius: 6px;
+    padding: 13px 4px;
+}
+.btn{
+    background: #E47C29;
+    border: 1px solid #E47C29;
+    border-radius: 4px;
+    padding: 11px 46px;
+
+}
+.btn a {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.pitch{
+    padding: 0 10px;
+
+}
